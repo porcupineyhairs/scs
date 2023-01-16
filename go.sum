@@ -1,0 +1,5 @@
+github.com/porcupineyhairs/scs/rqlitestore v0.0.0-20230116043122-8ae7caf4186a h1:cMP3BZ6mBP+jgNPVieSKNVrW5I83t1L3X+1n6FkNiow=
+github.com/porcupineyhairs/scs/rqlitestore v0.0.0-20230116043122-8ae7caf4186a/go.mod h1:ZoApexKdzJ8RWkhwaT51I85clUYiFB0dfnxgH6oQINQ=
+github.com/rqlite/gorqlite v0.0.0-20220201134517-1d67ddde3a7e/go.mod h1:UW/gxgQwSePTvL1KA8QEHsXeYHP4xkoXgbDdN781p34=
+github.com/rqlite/gorqlite v0.0.0-20221215150328-caa87cf08ea6 h1:MhEWdBuIdcStlVIMpXzfEcHt1qUNlvenY8YvINtZt4Y=
+github.com/rqlite/gorqlite v0.0.0-20221215150328-caa87cf08ea6/go.mod h1:xF/KoXmrRyahPfo5L7Szb5cAAUl53dMWBh9cMruGEZg=

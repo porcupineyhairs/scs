@@ -1,6 +1,6 @@
 # rqlitestore
 
-A [rqlite](https://github.com/rqlite/gorqlite) based session store for [SCS](https://github.com/alexedwards/scs).
+A [rqlite](https://github.com/rqlite/gorqlite) based session store for [SCS](https://github.com/porcupineyhairs/scs).
 
 ## Setup
 
@@ -26,8 +26,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/alexedwards/scs/v2"
-	"github.com/alexedwards/scs/rqlitestore"
+	"github.com/porcupineyhairs/scs/v2"
+	"github.com/porcupineyhairs/scs/rqlitestore"
 	"github.com/rqlite/gorqlite"
 )
 

@@ -8,8 +8,6 @@ import (
 	"net"
 	"net/http"
 	"time"
-
-	"github.com/alexedwards/scs/v2/memstore"
 )
 
 // Deprecated: Session is a backwards-compatible alias for SessionManager.
@@ -103,7 +101,7 @@ func New() *SessionManager {
 	s := &SessionManager{
 		IdleTimeout: 0,
 		Lifetime:    24 * time.Hour,
-		Store:       memstore.New(),
+		Store:       nil,
 		Codec:       GobCodec{},
 		ErrorFunc:   defaultErrorFunc,
 		contextKey:  generateContextKey(),
